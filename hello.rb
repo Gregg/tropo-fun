@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'sinatra'
-require 'tropo-webapi-ruby'
+require 'vendor/tropo-webapi-ruby/lib/tropo-webapi-ruby.rb'
 
 
 post '/helloworld.json' do
