@@ -1,8 +1,8 @@
 require 'rubygems'
 require 'sinatra'
-require 'nokogiri'
+# require 'nokogiri'
 require 'activesupport'
-require 'vendor/tropo-webapi-ruby/lib/tropo-webapi-ruby.rb'
-require 'vendor/google_showtimes/lib/google_showtimes.rb'
+require 'tropo-webapi-ruby'
+require 'google_showtimes'
 require 'ask5'
 run Sinatra::Application
