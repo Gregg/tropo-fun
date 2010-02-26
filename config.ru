@@ -2,5 +2,6 @@ require 'rubygems'
 require 'sinatra'
 require 'activesupport'
 require 'vendor/tropo-webapi-ruby/lib/tropo-webapi-ruby.rb'
-require 'hello'
+require 'vendor/google_showtimes/lib/google_showtimes.rb'
+require 'ask5'
 run Sinatra::Application

@@ -1,7 +1,3 @@
-require 'rubygems'
-require 'sinatra'
-require 'tropo-webapi-ruby'
-require 'google_showtimes'
 
 post '/helloworld.json' do
   tropo = Tropo::Generator.new do
