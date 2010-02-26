@@ -1,0 +1,4 @@
+tropo-webapi-ruby   --version '0.1.5'
+sinatra             --version '0.9.4'
+google_showtimes    --version '1.1.0'
+activesupport       --version '2.3.5'
