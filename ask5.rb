@@ -17,7 +17,7 @@ post '/lookup_movie_time.json' do
   tropo_event = Tropo::Generator.parse request.env["rack.input"].read
   p tropo_event
   
-  zipcode = tropo_event[:result][:actions][:zipcode][:value]
+  zipcode = tropo_event[:result][:actions][:zipcode][:value].gsub(" ", "")
   showtimes = avatar_showtimes_for(zipcode)
 
   tropo = Tropo::Generator.new do
